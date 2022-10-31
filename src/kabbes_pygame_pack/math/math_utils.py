@@ -1,6 +1,9 @@
 import numpy as np
 from scipy.spatial import distance
 
+def get_random_angle( max_angle = 2*np.pi):
+    return np.random.random() * max_angle
+
 def polar_to_cart(r, radians) -> np.array:
 
     """converts R,theta into X,Y"""
@@ -25,7 +28,10 @@ def get_euc_dist( X1: np.array, X2: np.array ):
 
     """Given two position vectors, return the distance between the points"""
 
-    return distance.euclidean( X1, X2 )
+    print (X1)
+    print (X2)
+
+    return distance.euclidean( X1.flatten(), X2.flatten() )
 
 def is_collision( X1: np.array, X2: np.array, buffer ) -> bool:
 
