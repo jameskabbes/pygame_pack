@@ -28,9 +28,6 @@ def get_euc_dist( X1: np.array, X2: np.array ):
 
     """Given two position vectors, return the distance between the points"""
 
-    print (X1)
-    print (X2)
-
     return distance.euclidean( X1.flatten(), X2.flatten() )
 
 def is_collision( X1: np.array, X2: np.array, buffer ) -> bool:
