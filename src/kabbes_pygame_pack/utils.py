@@ -28,8 +28,7 @@ def draw_circle(screen, color, coords, radius):
 def draw_polygon(screen, color, coords):
     pygame.draw.polygon(screen, color, coords)
 
-def draw_sqaure(screen, color, center_coords, length):
-
+def draw_square(screen, color, center_coords, length):
     coords = []
     coords.append([center_coords[0] + length /2, center_coords[1] + length/2])
     coords.append([center_coords[0] + length /2, center_coords[1] - length/2])
