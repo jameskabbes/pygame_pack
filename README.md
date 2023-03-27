@@ -1,8 +1,8 @@
-[GitHub Pages](https://jameskabbes.github.io/pygame_pack)<br>
-[PyPI](https://pypi.org/project/kabbes-pygame-pack)
-
 # pygame_pack
 Helpful PyGame functions
+
+[Documentation](https://jameskabbes.github.io/pygame_pack)<br>
+[PyPI](https://pypi.org/project/kabbes-pygame-pack)
 
 <br> 
 
