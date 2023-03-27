@@ -6,4 +6,5 @@ _src_Dir = _Dir.ascend()                                  #src Dir that is one a
 _repo_Dir = _src_Dir.ascend()                    
 _cwd_Dir = do.Dir( do.get_cwd() )
 
-from .functions import *
+from .utils import *
+from . import math
