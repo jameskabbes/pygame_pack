@@ -1,0 +1,21 @@
+kabbes\_pygame\_pack.math package
+=================================
+
+Submodules
+----------
+
+kabbes\_pygame\_pack.math.math\_utils module
+--------------------------------------------
+
+.. automodule:: kabbes_pygame_pack.math.math_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: kabbes_pygame_pack.math
+   :members:
+   :undoc-members:
+   :show-inheritance:

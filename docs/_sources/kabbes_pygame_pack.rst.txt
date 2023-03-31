@@ -1,0 +1,29 @@
+kabbes\_pygame\_pack package
+============================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   kabbes_pygame_pack.math
+
+Submodules
+----------
+
+kabbes\_pygame\_pack.utils module
+---------------------------------
+
+.. automodule:: kabbes_pygame_pack.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: kabbes_pygame_pack
+   :members:
+   :undoc-members:
+   :show-inheritance:
